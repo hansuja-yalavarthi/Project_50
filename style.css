@@ -19,14 +19,17 @@ body {
     background-color: rgb(234, 134, 243);
 }
 
-.grid{
+.grid {
     border: 2px solid black;
     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .origami {
     border-radius: 20px;
     background-color: rgb(111, 228, 150);
-    width: 500px;
+    width: 300px;
     font-family: cursive;
 }
